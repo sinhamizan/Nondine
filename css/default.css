@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+p {
+	padding: 0;
+	margin: 0;
+	color: #252525;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+h3 {
+	color: #000;
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 24px;
+	position: relative;
+	padding-bottom: 15px;
+}
+h3 span {
+	color: #ff0000;
+}
+h3::after {
+	position: absolute;
+	background: #ff0000;
+	width: 150px;
+	height: 2px;
+	bottom: 0;
+	content: "";
+	left: 50%;
+	margin-left: -75px;
+}
+h3::before {
+	position: absolute;
+	content: "";
+	background: #ff0000;
+	width: 12px;
+	height: 12px;
+	border-radius: 30px;
+	bottom: -5px;
+	left: 50%;
+	margin-left: -6px;
+}
+img {
+	width: 100%;
+}
+/* fixed menu */
+.header-bg {
+	background: #393838;
+} 
+/* for animation */
+.animation {
+	opacity: 0;
+}

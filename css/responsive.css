@@ -1,0 +1,628 @@
+
+@media only screen and (min-width: 1200px) {
+.container {width:1140px}
+
+.slicknav_menu {
+	display: none;
+}
+
+
+}
+
+/* laptop Layout: 1199px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.container {width:960px}
+.hover-member-title i {
+	font-size: 14px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+.hover-member-title li {
+	padding: 0 2px 6px;
+}
+.hover-member-title {
+	bottom: -66px;
+	padding-top: 8px;
+}
+.slicknav_menu {
+	display: none;
+}
+
+
+}
+
+/* tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.container {width:720px}
+.menu-area {
+	display: none;
+}
+.slicknav_menu {
+	display: block;
+	background: transparent;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+}
+.slicknav_btn {
+	background: #E74C3C;
+}
+.slicknav_nav a {
+	width: 220px;
+	text-align: center;
+	height: 40px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.slicknav_nav {
+	background: #393838;
+}
+.slicknav_nav ul {
+	margin: 0;
+}
+.slicknav_nav a:hover {
+	color: #E74C3C;
+}
+
+h3 {
+	font-size: 24px;
+}
+p {
+	font-size: 12px;
+}
+.logo-area img {
+	width: 100%;
+}
+.menu-area ul li a {
+	padding: 22px 12px;
+	font-size: 12px;
+	font-weight: 600;
+}
+.single-item h1 {
+	font-size: 48px;
+}
+.about-content h5 {
+	font-size: 22px;
+	padding-bottom: 22px;
+}
+.about-img-title h5 {
+	font-size: 18px;
+	padding-top: 8px;
+}
+.about-img-title li {
+	padding: 8px 5px;
+}
+.mfp-iframe-holder .mfp-content {
+    width:auto;
+    min-width:500px;
+    min-height:400px;
+ }
+.silder-area {
+	padding-top: 200px;
+	padding-bottom: 120px;
+}
+.skill-right h4 {
+	padding-top: 0;
+}
+.single-client h6 {
+	font-size: 22px;
+}
+.single-client i {
+	width: 45px;
+	height: 45px;
+	line-height: 41px;
+	font-size: 20px;
+}
+.single-client h5 {
+	font-size: 28px;
+}
+.hover-member-title h5 {
+	font-size: 16px;
+	padding-bottom: 8px;
+}
+.hover-member-title i {
+	font-size: 14px;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+}
+.hover-member-title {
+	bottom: -75px;
+	padding-top: 10px;
+}
+.single-blog h4 {
+	font-size: 18px;
+}
+.total-skill-area {
+	padding: 45px 0;
+}
+.team-title {
+	padding-top: 45px;
+}
+.blog-title {
+	padding-top: 50px;
+	padding-bottom: 35px;
+}
+.total-cantact-area {
+	padding: 50px 0;
+}
+.total-footer-area {
+	padding: 32px 0;
+}
+.cantact-area a {
+	font-size: 16px;
+	padding: 14px 25px;
+}
+
+
+}
+
+
+
+/* wide Mobile Layout: 540px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+.container {width:540px}
+.menu-area {
+	display: none;
+}
+.slicknav_menu {
+	display: block;
+	background: transparent;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+}
+.slicknav_btn {
+	background: #E74C3C;
+}
+.slicknav_nav a {
+	width: 220px;
+	text-align: center;
+	height: 40px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.slicknav_nav {
+	background: #393838;
+}
+.slicknav_nav ul {
+	margin: 0;
+}
+.slicknav_nav a:hover {
+	color: #E74C3C;
+}
+.single-item h1 {
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+.single-item a {
+	font-size: 18px;
+	padding: 12px 32px;
+}
+.single-item p {
+	font-size: 12px;
+	padding-bottom: 40px;
+}
+.silder-area {
+	padding-top: 180px;
+	padding-bottom: 80px;
+}
+.about-title {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+h3 {
+	font-size: 20px;
+}
+h3::after {
+	width: 130px;
+	margin-left: -65px;
+}
+.mfp-iframe-holder .mfp-content {
+    width:auto;
+    min-width:400px;
+    min-height:320px;
+ }
+ .logo-area img {
+	width: 80%;
+}
+.header-menu-area {
+	background: #393838;
+}
+.slicknav_nav a {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.about-content h5 {
+	padding-top: 18px;
+	font-size: 20px;
+	padding-bottom: 12px;
+}
+p {
+	font-size: 12px;
+}
+.about-content a {
+	padding: 12px 22px;
+	margin-top: 30px;
+	font-size: 14px;
+}
+.total-about-area {
+	padding-bottom: 36px;
+}
+.video-area h4 {
+	font-size: 24px;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+.video-area {
+	padding-bottom: 70px;
+}
+.servise-title {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.single-servise i {
+	font-size: 32px;
+	padding-bottom: 24px;
+}
+.single-servise h4 {
+	font-size: 18px;
+	line-height: 24px;
+	padding-bottom: 6px;
+}
+.total-skill-area {
+	padding: 30px 0;
+}
+.skill-left h4 {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+.skill-right h4 {
+	font-size: 18px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.client-area {
+	background-size: cover;
+}
+.single-client {
+	padding-bottom: 30px;
+}
+.single-client i {
+	width: 36px;
+	height: 36px;
+	line-height: 32px;
+	font-size: 16px;
+}
+.single-client h5 {
+	font-size: 24px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
+.single-client h6 {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.client-area {
+	padding: 40px 0;
+}
+.port-title {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.team-title {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.single-test p {
+	font-size: 12px;
+}
+.single-test {
+	padding: 40px 0;
+}
+.blog-title {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.single-blog h4 {
+	font-size: 18px;
+	padding-top: 18px;
+	padding-bottom: 12px;
+}
+.single-blog {
+	padding-bottom: 30px;
+}
+.single-blog p {
+	padding-bottom: 20px;
+}
+.total-blog-area {
+	padding-bottom: 15px;
+}
+.total-cantact-area {
+	padding: 30px 0;
+}
+.cantact-area input {
+	margin-bottom: 15px;
+}
+.cantact-area a {
+	font-size: 14px;
+	padding: 15px 24px;
+	margin-top: 20px;
+}
+.total-footer-area {
+	padding: 20px 0;
+}
+.footer-left i {
+	font-size: 14px;
+}
+.footer-right p {
+	font-size: 14px;
+}
+.total-testmonial-area {
+	background-size: cover;
+}
+.animation {
+	animation:none;
+}
+
+
+
+
+}
+
+/* Mobile Layout: auto. */
+
+@media only screen and (max-width: 575px) {
+
+.container {width:auto;}
+.menu-area {
+	display: none;
+}
+.animation {
+	animation:none;
+}
+.hover-member-title i {
+	display: none;
+}
+.slicknav_menu {
+	display: block;
+	background: transparent;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+}
+.slicknav_btn {
+	background: #E74C3C;
+}
+.slicknav_nav a {
+	width: 220px;
+	text-align: center;
+	height: 40px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.slicknav_nav {
+	background: #393838;
+}
+.slicknav_nav ul {
+	margin: 0;
+}
+.slicknav_nav a:hover {
+	color: #E74C3C;
+}
+.single-client {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.logo-area img {
+	padding-top: 5px;
+	width: 120px;
+	padding-bottom: 15px;
+}
+.header-menu-area {
+	background: #393838;
+}
+.silder-area {
+	padding-top: 160px;
+	padding-bottom: 25px;
+}
+.single-item h1 {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.single-item p {
+	font-size: 12px;
+	padding-bottom: 30px;
+}
+.single-item a {
+	font-size: 14px;
+	padding: 8px 20px;
+}
+.about-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+h3 {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+h3::after {
+	width: 100px;
+	margin-left: -50px;
+}
+.about-content h5 {
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+.about-content a {
+	padding: 10px 20px;
+	margin-top: 25px;
+	font-size: 14px;
+}
+p {
+	font-size: 12px;
+	
+}
+.total-about-area {
+	padding-bottom: 15px;
+}
+.video-area h4 {
+	font-size: 18px;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.video-area {
+	padding-bottom: 50px;
+}
+.video-area i {
+	width: 48px;
+	height: 48px;
+	line-height: 43px;
+	font-size: 18px;
+}
+.servise-title {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.single-servise i {
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.single-servise h4 {
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+.single-servise {
+	padding-bottom: 20px;
+}
+.single-servise {
+	padding-bottom: 20px;
+}
+.total-skill-area {
+	padding: 20px 0;
+}
+.skill-title {
+	padding-bottom: 20px;
+}
+.skill-left h4 {
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+.skill-right h4 {
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+.skill-right p {
+	padding-bottom: 25px;
+}
+.skp h5 {
+	font-size: 14px;
+}
+.client-area {
+	background-size: cover;
+}
+.client-area {
+	padding: 25px 0;
+	position: relative;
+}
+.single-client i {
+	width: 40px;
+	height: 40px;
+	line-height: 36px;
+	font-size: 18px;
+}
+.single-client h5 {
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.single-client h6 {
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+.port-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.port-control button {
+	padding: 5px;
+}
+.team-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.single-test p {
+	font-size: 12px;
+}
+.single-test {
+	padding: 20px 0;
+}
+.single-test h4 {
+	font-size: 14px;
+	padding-top: 12px;
+	padding-bottom: 5px;
+}
+.blog-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.single-blog h4 {
+	font-size: 18px;
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
+.single-blog h6 {
+	padding-bottom: 5px;
+}
+.single-blog p {
+	padding-bottom: 10px;
+}
+.cantact-area input {
+	margin-bottom: 10px;
+}
+.cantact-area a {
+	font-size: 14px;
+	padding: 12px 20px;
+	margin-top: 20px;
+}
+.total-cantact-area {
+	padding: 20px 0;
+}
+.footer-left {
+	text-align: center;
+	padding-bottom: 10px;
+}
+.footer-right {
+	float: none;
+	text-align: center;
+}
+.total-footer-area {
+	padding: 20px 0;
+}
+.total-testmonial-area {
+	background-size: cover;
+}
+.mfp-iframe-holder .mfp-content {
+    width:auto;
+    min-width:300px;
+    min-height:220px;
+ }
+
+
+
+}
